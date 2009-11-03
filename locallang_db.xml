@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'be_groups'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="be_groups.tx_begroups_kind">Kind of</label>
+
+			<label index="be_groups.tabs.file_mount">File mount</label>
+			<label index="be_groups.tabs.db_mount">Page mount</label>
+			<label index="be_groups.tabs.tsconfig">UserTSconfig</label>
+			<label index="be_groups.tabs.subgroup">Subgroup</label>
+			<label index="be_groups.tabs.custom_options">Access custom modul options</label>
+			<label index="be_groups.tabs.workspace_rights">Access workspace</label>
+			<label index="be_groups.tabs.modul_rights">Access modul</label>
+			<label index="be_groups.tabs.table_rights">Access tables</label>
+			<label index="be_groups.tabs.page_rights">Access page types</label>
+			<label index="be_groups.tabs.exclude_rights">Access excludefields</label>
+			<label index="be_groups.tabs.pagecontent_rights">Access pagecontent</label>
+			<label index="be_groups.tabs.language_rights">Access languages</label>
+
+			<label index="be_groups.tx_begroups_kind.I.0">Default all</label>
+			<label index="be_groups.tx_begroups_kind.I.1">Rights</label>
+			<label index="be_groups.tx_begroups_kind.I.2">Language</label>
+			<label index="be_groups.tx_begroups_kind.I.3">Meta</label>
+			<label index="be_groups.tx_begroups_kind.I.4">Page access group</label>
+			<label index="be_groups.tx_begroups_kind.I.5">File mount</label>
+			<label index="be_groups.tx_begroups_kind.I.6">Page mount</label>
+			<label index="be_groups.tx_begroups_kind.I.7">TSconfig</label>
+			<label index="be_groups.tx_begroups_kind.I.8">Workspace</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="be_groups.tx_begroups_kind">Gattung</label>
+
+			<label index="be_groups.tabs.mounts_and_workspaces">Mounts</label>
+
+			<label index="be_groups.tx_begroups_kind.I.0">Standard alle</label>
+			<label index="be_groups.tx_begroups_kind.I.1">Berechtigung</label>
+			<label index="be_groups.tx_begroups_kind.I.2">Meta</label>
+			<label index="be_groups.tx_begroups_kind.I.3">Seiten zugriffs Gruppe</label>
+			<label index="be_groups.tx_begroups_kind.I.4">Startpunkt des Dateisystems</label>
+			<label index="be_groups.tx_begroups_kind.I.5">Startpunkt des Seitenbaum</label>
+			<label index="be_groups.tx_begroups_kind.I.6">TSconfig</label>
+			<label index="be_groups.tx_begroups_kind.I.7">Workspace</label>
+		</languageKey>
+	</data>
+</T3locallang>

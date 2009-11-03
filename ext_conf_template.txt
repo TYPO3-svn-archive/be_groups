@@ -1,0 +1,2 @@
+# cat=basic//10; type=boolean; label= explicit allow deny mode: Sets the general allow/deny mode for selector box values. This option enable the "explicitAllow"
+explicitAllow = 0
