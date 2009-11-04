@@ -1,5 +1,5 @@
-(add new changes on top of this file)
+04-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
+	* Add hook on TCEMAIN to set the right value for "inc_access_lists" on type change.
 
-08-11-06 Michael Klapper  <dev@aoemedia.de>
-
+03-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
 	* Initial release

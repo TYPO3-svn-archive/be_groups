@@ -13,7 +13,7 @@
             <label index="label.prefix.1">R: </label>
             <label index="label.prefix.2">L: </label>
             <label index="label.prefix.3">META: </label>
-            <label index="label.prefix.4">P: </label>
+            <label index="label.prefix.4">PA: </label>
             <label index="label.prefix.5">FM: </label>
             <label index="label.prefix.6">PM: </label>
             <label index="label.prefix.7">UserTSconfig: </label>

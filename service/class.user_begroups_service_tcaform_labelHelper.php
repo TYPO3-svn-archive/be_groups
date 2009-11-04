@@ -32,7 +32,7 @@ require_once PATH_t3lib . 'class.t3lib_befunc.php';
  * @author Michael Klapper <michael.klapper@aoemedia.de>
  * @copyright Copyright (c) 2009, AOE media GmbH <dev@aoemedia.de>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @version $Id: class.tcaform_variantLabel.php $
+ * @version $Id: class.user_begroups_service_tcaform_labelHelper.php $
  * @date 00311.2009
  * @package TYPO3
  * @subpackage tx_begroups
