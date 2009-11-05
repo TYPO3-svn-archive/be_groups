@@ -92,6 +92,7 @@ $TCA['be_groups']['types']['6'] = array ('showitem' => 'hidden;;;;1-1-1, title;;
 $TCA['be_groups']['types']['7'] = array ('showitem' => 'hidden;;;;1-1-1, title;;;;2-2-2,tx_begroups_kind, description, --div--;LLL:EXT:be_groups/locallang_db.xml:be_groups.tabs.tsconfig, TSconfig, --div--;LLL:EXT:lang/locallang_tca.xml:be_groups.tabs.options, lockToDomain;;;;1-1-1, hide_in_lists;;;;2-2-2');
 $TCA['be_groups']['types']['8'] = array ('showitem' => 'hidden;;;;1-1-1, title;;;;2-2-2,tx_begroups_kind, description, --div--;LLL:EXT:be_groups/locallang_db.xml:be_groups.tabs.workspace_rights, workspace_perms;;;;2-2-2, --div--;LLL:EXT:lang/locallang_tca.xml:be_groups.tabs.options, lockToDomain;;;;1-1-1, hide_in_lists;;;;2-2-2');
 
+	// change field definition from multiselect to checkbox
 $TCA['be_groups']['columns']['subgroup']['config']['renderMode']= 'checkbox';
 $TCA['be_groups']['columns']['file_mountpoints']['config']['renderMode']= 'checkbox';
 $TCA['be_groups']['columns']['file_mountpoints']['config']['wizards'] = null;
@@ -100,4 +101,7 @@ $TCA['be_groups']['columns']['pagetypes_select']['config']['renderMode']= 'check
 //~ $TCA['be_groups']['columns']['tables_modify']['config']['renderMode']= 'checkbox';
 //~ $TCA['be_groups']['columns']['tables_select']['config']['renderMode']= 'checkbox';
 //~ $TCA['be_groups']['columns']['non_exclude_fields']['config']['renderMode']= 'checkbox';
+
+	// change list sorting from "title" to "tx_begroups_kind"
+$TCA['be_groups']['ctrl']['default_sortby'] = 'ORDER BY tx_begroups_kind ASC';
 ?>

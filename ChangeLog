@@ -1,5 +1,9 @@
+05-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
+	* Reset all fields who are not relevant in the current selected type of be_group.
+
 04-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
 	* Add hook on TCEMAIN to set the right value for "inc_access_lists" on type change.
+	* Change default sorting of list module
 
 03-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
 	* Initial release
