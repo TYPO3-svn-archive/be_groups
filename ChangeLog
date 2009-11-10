@@ -1,3 +1,6 @@
+10-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
+	* Change order of listed subgroups whitin the be_users item.
+
 05-11-2009 Michael Klapper  <michael.klapper@aoemedia.de>
 	* Reset all fields who are not relevant in the current selected type of be_group.
 

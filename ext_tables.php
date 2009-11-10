@@ -65,6 +65,8 @@ $TCA['be_groups']['ctrl']['typeicons']       = array (
 	// display only groups of type "META" in usergroup select box
 t3lib_div::loadTCA("be_users");
 $TCA['be_users']['columns']['usergroup']['config']['foreign_table_where'] = ' AND hide_in_lists = 0 ORDER BY be_groups.title';
+        // Reorder the list of be_users "usergroup" field
+$TCA['be_users']['columns']['usergroup']['config']['foreign_table_where'] = ' AND hide_in_lists = 0 ORDER BY be_groups.tx_begroups_kind';
 
 $tabExtended       = '';
 $tabExtendedFields = '';
