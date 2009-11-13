@@ -32,18 +32,19 @@
 			<label index="be_groups.tx_begroups_kind.I.8">Workspace</label>
 		</languageKey>
 		<languageKey index="de" type="array">
-			<label index="be_groups.tx_begroups_kind">Gattung</label>
+			<label index="be_groups.tx_begroups_kind">Typ</label>
 
 			<label index="be_groups.tabs.mounts_and_workspaces">Mounts</label>
 
 			<label index="be_groups.tx_begroups_kind.I.0">Standard alle</label>
 			<label index="be_groups.tx_begroups_kind.I.1">Berechtigung</label>
-			<label index="be_groups.tx_begroups_kind.I.2">Meta</label>
-			<label index="be_groups.tx_begroups_kind.I.3">Seiten zugriffs Gruppe</label>
-			<label index="be_groups.tx_begroups_kind.I.4">Startpunkt des Dateisystems</label>
-			<label index="be_groups.tx_begroups_kind.I.5">Startpunkt des Seitenbaum</label>
-			<label index="be_groups.tx_begroups_kind.I.6">TSconfig</label>
-			<label index="be_groups.tx_begroups_kind.I.7">Workspace</label>
+			<label index="be_groups.tx_begroups_kind.I.2">Sprache</label>
+			<label index="be_groups.tx_begroups_kind.I.3">Meta</label>
+			<label index="be_groups.tx_begroups_kind.I.4">Seiten zugriffs Gruppe</label>
+			<label index="be_groups.tx_begroups_kind.I.5">Startpunkt des Dateisystems</label>
+			<label index="be_groups.tx_begroups_kind.I.6">Startpunkt des Seitenbaum</label>
+			<label index="be_groups.tx_begroups_kind.I.7">TSconfig</label>
+			<label index="be_groups.tx_begroups_kind.I.8">Workspace</label>
 		</languageKey>
 	</data>
 </T3locallang>
