@@ -69,7 +69,7 @@ class tx_begroups_service_tcemain_hook {
 				$fieldsToKeepArray = array_keys(t3lib_beFunc::getTCAtypes('be_groups', $incomingFieldArray, 1));
 
 				foreach ($incomingFieldArray as $column => $value) {
-					if (! in_array($column, $fieldsToKeepArray) ) {
+					if (! in_array($column, $fieldsToKeepArray) && (t3lib_div::testInt($id) === true) ) {
 						$incomingFieldArray[$column] = null;
 					}
 				}
