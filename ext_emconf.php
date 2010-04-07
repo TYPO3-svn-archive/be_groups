@@ -11,7 +11,7 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'AOE be_groups',
+	'title' => 'Rights management for backend user groups',
 	'description' => 'Controll the available fields for each kind of group',
 	'category' => 'misc',
 	'author' => 'Michael Klapper',
@@ -28,7 +28,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
-	'author_company' => 'AOE media GmbH',
+	'author_company' => '',
 	'version' => '0.3.3-dev',
 	'constraints' => array(
 		'depends' => array(

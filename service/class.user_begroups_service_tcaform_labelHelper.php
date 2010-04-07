@@ -2,7 +2,7 @@
 /***************************************************************
  *  Copyright notice
  *
- *  Copyright (c) 2009, AOE media GmbH <dev@aoemedia.de>
+ *  Copyright (c) 2009, Michael Klapper <michael.klapper@aoemedia.de>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -30,18 +30,18 @@ require_once PATH_t3lib . 'class.t3lib_befunc.php';
  * class.user_begroups_service_tcaform_labelHelper.php
  *
  * @author Michael Klapper <michael.klapper@aoemedia.de>
- * @copyright Copyright (c) 2009, AOE media GmbH <dev@aoemedia.de>
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @version $Id: class.user_begroups_service_tcaform_labelHelper.php $
  * @date 00311.2009
  * @package TYPO3
  * @subpackage tx_begroups
- * @access public
  */
 class user_begroups_service_tcaform_labelHelper {
 
 	/**
 	 * Retrive a custom label
+	 *
+	 * @param array   $params    Current record
+	 * @param object  $pObj
 	 *
 	 * @access     public
 	 * @return     string
@@ -49,6 +49,7 @@ class user_begroups_service_tcaform_labelHelper {
 	 * @author Michael Klapper <michael.klapper@aoemedia.de>
 	 */
 	public function getCombinedTitle(&$params, &$pObj) {
+	
 		global $LANG;
 		$type = $params['row']['tx_begroups_kind'];
 		$label = $LANG->sL('LLL:EXT:be_groups/service/locallang.xml:label.prefix.' . $type) . $params['row']['title'];
@@ -57,8 +58,8 @@ class user_begroups_service_tcaform_labelHelper {
 	}
 }
 
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/aoe_tirepresenter/service/class.user_begroups_service_tcaform_labelHelper.php']) {
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/aoe_tirepresenter/service/class.user_begroups_service_tcaform_labelHelper.php']);
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/be_groups/service/class.user_begroups_service_tcaform_labelHelper.php']) {
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/be_groups/service/class.user_begroups_service_tcaform_labelHelper.php']);
 }
 
 ?>

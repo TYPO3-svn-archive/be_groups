@@ -2,7 +2,7 @@
 /***************************************************************
  *  Copyright notice
  *
- *  Copyright (c) 2009, AOE media GmbH <dev@aoemedia.de>
+ *  Copyright (c) 2009, Michael Klapper <michael.klapper@aoemedia.de>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -28,13 +28,10 @@
  * class.tx_begroups_service_tcemain_hook.php
  *
  * @author Michael Klapper <michael.klapper@aoemedia.de>
- * @copyright Copyright (c) 2009, AOE media GmbH <dev@aoemedia.de>
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @version $Id: class.tx_begroups_service_tcemain_hook.php $
  * @date 03.11.2009
  * @package TYPO3
  * @subpackage tx_begroups
- * @access public
  */
 class tx_begroups_service_tcemain_hook {
 
@@ -56,6 +53,11 @@ class tx_begroups_service_tcemain_hook {
 	/**
 	 * Update inc_access_lists value if the table is "be_groups"
 	 *
+	 * @param array          $incommingFieldArray    Current record
+	 * @param string         $table                  Database table of current record
+	 * @param integer        $id                     Uid of current record
+	 * @param t3lib_TCEmain  $parentObj
+	 *
 	 * @access     public
 	 * @return     string
 	 * 
@@ -74,7 +76,7 @@ class tx_begroups_service_tcemain_hook {
 					}
 				}
 			}
-			
+
 				// update include access list flag
 			if ($this->setIncludeListFlag[$incomingFieldArray['tx_begroups_kind']] === true) {
 				$incomingFieldArray['inc_access_lists'] = 1;
@@ -83,6 +85,10 @@ class tx_begroups_service_tcemain_hook {
 			}
 		}
 	}
+}
+
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/be_groups/service/class.tx_begroups_service_tcemain_hook.php']) {
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/be_groups/service/class.tx_begroups_service_tcemain_hook.php']);
 }
 
 ?>
